@@ -1,8 +1,25 @@
 aid: itemfield
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/itemfield.png
 name: Itemfield
-description: 'Itemfield is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Itemfield was an enterprise data-integration software company known for its Complex
+  Data Exchange (CDE) and B2B data-transformation technology, which parsed, mapped, and transformed
+  complex, unstructured, and industry-standard message formats into structured data. Itemfield was
+  acquired by Informatica in 2006, and its technology was absorbed into Informatica''s B2B Data
+  Transformation product line. The company was surfaced as a portfolio company of Accel and added to
+  the API Evangelist network as a stub. Enrichment found no surviving independent Itemfield developer
+  surface: the itemfield.com domain now resolves under Informatica-managed DNS and serves no HTTP
+  content, so there is no live API, documentation, portal, or specification to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/itemfield/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: acquired
+x-acquired-by: informatica
+x-acquired-year: 2006
 tags:
 - Company
 - Enterprise
+- Data Integration
+- Data Transformation
+- B2B
+- ETL
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
