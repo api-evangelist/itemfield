@@ -63,3 +63,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/informatica/
+  name: Informatica
+  x-relationship: acquired
+  x-evidence: "Itemfield was acquired by Informatica in 2006, and its technology was absorbed into Informatica's B2B Data Transformation product line."
